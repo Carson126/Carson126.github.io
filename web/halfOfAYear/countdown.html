@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>半年之约</title>
+</head>
+<body>
+    <script src="../scripts/1.x/jquery-1.11.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+                //dom
+                $.getScript( "scripts/tools.js", function( data, textStatus, jqxhr){
+                    console.log(data);
+                    console.log(textStatus);
+                    console.log(jqxhr);
+                });
+        });
+    </script>
+</body>
+</html>
